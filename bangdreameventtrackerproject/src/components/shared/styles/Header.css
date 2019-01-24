@@ -1,0 +1,19 @@
+.header{
+    background-color: #e40046
+}
+
+.bandori-app{
+    color: white;
+    align-content: center;
+    font-weight: bold;
+}
+
+.bandori-title{
+    font-family: 'Verdana, Geneva, sans-serif';
+    font-size: 3rem;
+}
+
+.bandori-subs{
+    font-family: 'Verdana, Geneva, sans-serif';
+    font-size: 1.5rem;
+}
