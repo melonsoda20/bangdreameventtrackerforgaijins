@@ -1,11 +1,13 @@
 .header{
-    background-color: #e40046
+    background-color: #e40046;
 }
 
-.bandori-app{
+.bandori-header{
     color: white;
     align-content: center;
     font-weight: bold;
+    text-align: center;
+    margin: 0px;
 }
 
 .bandori-title{
