@@ -1,8 +1,8 @@
 <template>
     <div class="menu">
         <ul class="menu nav nav-tabs justify-content-center" red>
-            <li v-for="tabOption in tabOptions" :key="tabOption.id" class="nav-item">
-                <a @click="makeActive(tabOption)" class="nav-link" :class="{active: tabOption.highlight}" href="#">{{tabOption.title}}</a>
+            <li v-for="tabOption in tabOptions" :key="tabOption.id" class="nav-item" :class="{active: tabOption.highlight}" @click="makeActive(tabOption)">
+                <router-link class="nav-link" to="/event">{{tabOption.title}}</router-link>
             </li>
         </ul>
     </div>
@@ -45,10 +45,6 @@ export default {
                  this.tabOptions[i].highlight = false;
              }
              this.tabOptions[val.id - 1].highlight = true;
-            //  if(val.highlight == false){
-            //     this.removeActive();
-            //     val.highlight = !val.highlight;
-            //  }
          },
 
         removeActive: function() {
@@ -62,6 +58,6 @@ export default {
  }
  </script>
  
-<style>
+<style scoped>
     @import './Tabs.css';
 </style>
