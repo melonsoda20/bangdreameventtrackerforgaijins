@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import bandoriEvent from './components/app-content/Event.vue';
+import bandoriEvent from './components/app-content/Event/EventContent.vue';
 
 Vue.use(Router);
 

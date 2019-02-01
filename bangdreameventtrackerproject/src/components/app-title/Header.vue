@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <p class="bandori-header bandori-title">{{bandoriTitle}}</p>
+        <p class="bandori-header bandori-title" jest="app-title">{{bandoriTitle}}</p>
         <p class="bandori-header bandori-subs">{{bandoriSubtitle}}</p>
     </div>
 </template>
